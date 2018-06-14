@@ -59,12 +59,12 @@ def initDrive():
 	autonomous = getDriveMode()
 	
 	if(autonomous):
-		autonomousDrive()
+		autonomousDrive(1)
 	else:
 	      userDrive()
 	      
 def autonomousDrive(mode):
-	if (mode == 'scripted'):
+	if (mode == 1):
 		movements = ['forward', 'backwards', 'left', 'right']
 
 		for x in movements:
