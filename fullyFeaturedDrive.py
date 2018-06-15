@@ -11,7 +11,6 @@ ai2 = 27
 bi1 = 10
 bi2 = 9
 
-
 def goForward():
 	setPins(1, 0, 1, 0)
 	print('w')

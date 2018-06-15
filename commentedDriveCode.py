@@ -30,7 +30,7 @@ ai2 = 27
 bi1 = 10
 bi2 = 9
 
-#Setting GPIO pin 5 to high. Meaning that that pin has power into it.
+#Setting GPIO pin 5 to high. Meaning that that pin has power into it
 
 '''
 All the goDIRECTION() methods call the setPins method with the pin's state as either 0 (low) or 1 (high).
@@ -66,6 +66,7 @@ Sets the pwm dutycycle (how long the pin is active) to the longest amount of tim
 The pins are then set to their correct high (1) or low (0) state, depending on the method that called setPins().
 '''
 def setPins(ai1State, ai2State, bi1State, bi2State):
+<<<<<<< HEAD
 	pi.set_PWM_dutycycle(5,128)
 	pi.set_PWM_dutycycle(6,96)
 	pi.write(ai1, ai1State)
