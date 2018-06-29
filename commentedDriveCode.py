@@ -66,7 +66,6 @@ Sets the pwm dutycycle (how long the pin is active) to the longest amount of tim
 The pins are then set to their correct high (1) or low (0) state, depending on the method that called setPins().
 '''
 def setPins(ai1State, ai2State, bi1State, bi2State):
-<<<<<<< HEAD
 	pi.set_PWM_dutycycle(5,128)
 	pi.set_PWM_dutycycle(6,96)
 	pi.write(ai1, ai1State)
