@@ -1,4 +1,4 @@
-import sensor
+import distanceSensor
 
 while True:
-	print(sensor.get_distance())
+	print(distanceSensor.get_distance())
